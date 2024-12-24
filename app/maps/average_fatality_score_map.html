@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_57dbfa73887e3452c9bb156e04f9f1de {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_57dbfa73887e3452c9bb156e04f9f1de" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_57dbfa73887e3452c9bb156e04f9f1de = L.map(
+                "map_57dbfa73887e3452c9bb156e04f9f1de",
+                {
+                    center: [20.0, 0.0],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 3,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_21e82d65fc93d067433f9089766ef120 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_21e82d65fc93d067433f9089766ef120.addTo(map_57dbfa73887e3452c9bb156e04f9f1de);
+        
+    
+            var marker_522eb285477f5d22e5432295986384f2 = L.marker(
+                [71.997702, -166.022044],
+                {
+}
+            ).addTo(map_57dbfa73887e3452c9bb156e04f9f1de);
+        
+    
+            var icon_377b81e23c8505c205881efca0b091f3 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_522eb285477f5d22e5432295986384f2.setIcon(icon_377b81e23c8505c205881efca0b091f3);
+        
+    
+        var popup_2419313bba11174f27de1630ef56e343 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_314766cfd7ab17001784c1083a7634fb = $(`<div id="html_314766cfd7ab17001784c1083a7634fb" style="width: 100.0%; height: 100.0%;">South Vietnam: Avg Fatality Score = 162.00</div>`)[0];
+                popup_2419313bba11174f27de1630ef56e343.setContent(html_314766cfd7ab17001784c1083a7634fb);
+            
+        
+
+        marker_522eb285477f5d22e5432295986384f2.bindPopup(popup_2419313bba11174f27de1630ef56e343)
+        ;
+
+        
+    
+    
+            var marker_97f6c1be79e30c9b5b7d617467601e8f = L.marker(
+                [-59.54548960802327, 13.126558189943024],
+                {
+}
+            ).addTo(map_57dbfa73887e3452c9bb156e04f9f1de);
+        
+    
+            var icon_2fc32586efa79ee88c11dcb9f17bb90d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_97f6c1be79e30c9b5b7d617467601e8f.setIcon(icon_2fc32586efa79ee88c11dcb9f17bb90d);
+        
+    
+        var popup_1f1504a89cf0b7994642bc155d08370f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5ea6e0538707df554e6c603c48d9bde5 = $(`<div id="html_5ea6e0538707df554e6c603c48d9bde5" style="width: 100.0%; height: 100.0%;">Barbados: Avg Fatality Score = 51.67</div>`)[0];
+                popup_1f1504a89cf0b7994642bc155d08370f.setContent(html_5ea6e0538707df554e6c603c48d9bde5);
+            
+        
+
+        marker_97f6c1be79e30c9b5b7d617467601e8f.bindPopup(popup_1f1504a89cf0b7994642bc155d08370f)
+        ;
+
+        
+    
+    
+            var marker_8917b201f4f0a0a037a3d2746a7650e7 = L.marker(
+                [29.804392797040418, -1.940389522802788],
+                {
+}
+            ).addTo(map_57dbfa73887e3452c9bb156e04f9f1de);
+        
+    
+            var icon_1499d89d37fbe3b8ca59dd7d00a3a09d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_8917b201f4f0a0a037a3d2746a7650e7.setIcon(icon_1499d89d37fbe3b8ca59dd7d00a3a09d);
+        
+    
+        var popup_877a0f9ac0b5f72c6f8f8acb3dc36615 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a21c00a53fe8a814aeb00d52464dbc9d = $(`<div id="html_a21c00a53fe8a814aeb00d52464dbc9d" style="width: 100.0%; height: 100.0%;">Rwanda: Avg Fatality Score = 48.32</div>`)[0];
+                popup_877a0f9ac0b5f72c6f8f8acb3dc36615.setContent(html_a21c00a53fe8a814aeb00d52464dbc9d);
+            
+        
+
+        marker_8917b201f4f0a0a037a3d2746a7650e7.bindPopup(popup_877a0f9ac0b5f72c6f8f8acb3dc36615)
+        ;
+
+        
+    
+    
+            var marker_90f97fc5f4285ca67526521166553b3c = L.marker(
+                [17.18120864330822, 13.09660534551967],
+                {
+}
+            ).addTo(map_57dbfa73887e3452c9bb156e04f9f1de);
+        
+    
+            var icon_6fe992c8696c96957ef4715f6ab08a74 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_90f97fc5f4285ca67526521166553b3c.setIcon(icon_6fe992c8696c96957ef4715f6ab08a74);
+        
+    
+        var popup_23d3f080b4ee22ee53b578b225b28587 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0fc128036439e306f1a63f0c8ea15f14 = $(`<div id="html_0fc128036439e306f1a63f0c8ea15f14" style="width: 100.0%; height: 100.0%;">Chad: Avg Fatality Score = 41.45</div>`)[0];
+                popup_23d3f080b4ee22ee53b578b225b28587.setContent(html_0fc128036439e306f1a63f0c8ea15f14);
+            
+        
+
+        marker_90f97fc5f4285ca67526521166553b3c.bindPopup(popup_23d3f080b4ee22ee53b578b225b28587)
+        ;
+
+        
+    
+    
+            var marker_1e656899ceb0922d15f39f67b4cc6acc = L.marker(
+                [30.75106109827607, 6.901995680102884],
+                {
+}
+            ).addTo(map_57dbfa73887e3452c9bb156e04f9f1de);
+        
+    
+            var icon_cb43e680d6b1f15290c48b82bdf07107 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_1e656899ceb0922d15f39f67b4cc6acc.setIcon(icon_cb43e680d6b1f15290c48b82bdf07107);
+        
+    
+        var popup_b27c5ebb9b48f0c83d726a272ee8627b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_cc98f286c714f21be069d375494a9fbb = $(`<div id="html_cc98f286c714f21be069d375494a9fbb" style="width: 100.0%; height: 100.0%;">South Sudan: Avg Fatality Score = 29.70</div>`)[0];
+                popup_b27c5ebb9b48f0c83d726a272ee8627b.setContent(html_cc98f286c714f21be069d375494a9fbb);
+            
+        
+
+        marker_1e656899ceb0922d15f39f67b4cc6acc.bindPopup(popup_b27c5ebb9b48f0c83d726a272ee8627b)
+        ;
+
+        
+    
+    
+            var marker_1bbcf5d96aec90f70874275ba3ecb873 = L.marker(
+                [42.963885304854784, 11.585021588236486],
+                {
+}
+            ).addTo(map_57dbfa73887e3452c9bb156e04f9f1de);
+        
+    
+            var icon_16618c068bb4a6a76af561a2ca1cf2bf = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_1bbcf5d96aec90f70874275ba3ecb873.setIcon(icon_16618c068bb4a6a76af561a2ca1cf2bf);
+        
+    
+        var popup_c4957162da52fe1edd57fb6dc7414dff = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_40f585062c4f001c2e4b8209daab9212 = $(`<div id="html_40f585062c4f001c2e4b8209daab9212" style="width: 100.0%; height: 100.0%;">Djibouti: Avg Fatality Score = 29.44</div>`)[0];
+                popup_c4957162da52fe1edd57fb6dc7414dff.setContent(html_40f585062c4f001c2e4b8209daab9212);
+            
+        
+
+        marker_1bbcf5d96aec90f70874275ba3ecb873.bindPopup(popup_c4957162da52fe1edd57fb6dc7414dff)
+        ;
+
+        
+    
+    
+            var marker_0a69c804481823f6ec7dd72fe5189e27 = L.marker(
+                [38.810697376281205, 9.85267016187351],
+                {
+}
+            ).addTo(map_57dbfa73887e3452c9bb156e04f9f1de);
+        
+    
+            var icon_b784a273f09e464ee2a0aaeaebc2b0d0 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_0a69c804481823f6ec7dd72fe5189e27.setIcon(icon_b784a273f09e464ee2a0aaeaebc2b0d0);
+        
+    
+        var popup_793cb1e8cb5afdb09f79c4219e2460bf = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8ea3f8d32e2bcb3ae4ed172af6aed6f0 = $(`<div id="html_8ea3f8d32e2bcb3ae4ed172af6aed6f0" style="width: 100.0%; height: 100.0%;">Ethiopia: Avg Fatality Score = 27.87</div>`)[0];
+                popup_793cb1e8cb5afdb09f79c4219e2460bf.setContent(html_8ea3f8d32e2bcb3ae4ed172af6aed6f0);
+            
+        
+
+        marker_0a69c804481823f6ec7dd72fe5189e27.bindPopup(popup_793cb1e8cb5afdb09f79c4219e2460bf)
+        ;
+
+        
+    
+    
+            var marker_e8ea10f948731b3b57fe5522002da420 = L.marker(
+                [-7.427813334287745, 32.358532407168134],
+                {
+}
+            ).addTo(map_57dbfa73887e3452c9bb156e04f9f1de);
+        
+    
+            var icon_2261b88a32f41130d418515dcbb09950 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_e8ea10f948731b3b57fe5522002da420.setIcon(icon_2261b88a32f41130d418515dcbb09950);
+        
+    
+        var popup_96a9ac7101552f39f00e365042586d9a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_abc456e5d56d9689084f233d7087bde1 = $(`<div id="html_abc456e5d56d9689084f233d7087bde1" style="width: 100.0%; height: 100.0%;">Morocco: Avg Fatality Score = 24.31</div>`)[0];
+                popup_96a9ac7101552f39f00e365042586d9a.setContent(html_abc456e5d56d9689084f233d7087bde1);
+            
+        
+
+        marker_e8ea10f948731b3b57fe5522002da420.bindPopup(popup_96a9ac7101552f39f00e365042586d9a)
+        ;
+
+        
+    
+</script>
+</html>
